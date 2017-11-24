@@ -1,0 +1,21 @@
+{
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "/**/__generated__": true
+    },
+    "files.insertFinalNewline": true,
+    "javascript.validate.enable": false,
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/__generated__": true
+    },
+    "vim.disableAnnoyingNeovimMessage": true,
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "One Monokai"
+}
