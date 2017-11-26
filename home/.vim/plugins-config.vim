@@ -12,8 +12,9 @@ if has_key(g:plugs, 'ale')
 endif
 
 if has_key(g:plugs, 'vim-polyglot')
-  let g:jsx_ext_required=0
-  let g:javascript_plugin_jsdoc = 1
+  let g:jsx_ext_required=0 " allow JSX syntax in .js files
+  let g:javascript_plugin_jsdoc = 1 " jsdoc syntax highlighting
+  let g:javascript_plugin_flow = 1 " flow syntax highlighting
 endif
 
 if has_key(g:plugs, 'vim-airline')
