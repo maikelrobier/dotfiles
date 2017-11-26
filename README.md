@@ -4,7 +4,7 @@
 ```bash
 git clone git@github.com:maikelrobier/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-source install.sh
+sh install.sh
 ```
 
 ## License

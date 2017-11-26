@@ -2,6 +2,7 @@
 
 # install vim
 brew install vim
+brew install neovim
 
 # install vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
@@ -9,3 +10,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 # install plugins
 vim +PlugInstall +qa
+
+# support NeoVim
+cp -r ~/.vim/ ~/.config/nvim
+cp ~/.vimrc ~/.config/nvim/init.vim

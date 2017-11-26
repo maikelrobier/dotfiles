@@ -1,5 +1,5 @@
 #!/bin/bash
 cp -a ./home/. ~
 
-source ./scripts/setup-vim.sh
-source ./scripts/setup-vscode.sh
+sh ./scripts/setup-vim.sh
+sh ./scripts/setup-vscode.sh
