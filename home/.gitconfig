@@ -22,6 +22,7 @@
   branch-name = "!git rev-parse --abbrev-ref HEAD"
   resetto = "!git reset --hard origin/$(git branch-name)"
   pusho = "!git push --set-upstream origin $(git branch-name)"
+  pullo = "!git pull --rebase origin $(git branch-name)"
 
 [color]
   # Use colors in Git commands that are capable of colored output when
