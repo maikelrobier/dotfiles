@@ -19,6 +19,10 @@
   # `git di $number` shows the diff between the state `$number` revisions ago and the current state
   di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
 
+  branch-name = "!git rev-parse --abbrev-ref HEAD"
+  resetto = "!git reset --hard origin/$(git branch-name)"
+  pusho = "!git push --set-upstream origin $(git branch-name)"
+
 [color]
   # Use colors in Git commands that are capable of colored output when
   # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
