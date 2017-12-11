@@ -35,3 +35,8 @@ if has_key(g:plugs, 'vim-airline')
   let g:airline_right_sep=''
   let g:airline_right_alt_sep=''
 endif
+
+" ack
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
