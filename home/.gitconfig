@@ -2,6 +2,7 @@
 
 [core]
   autocrlf = input
+  editor = 'nvim'
 
 [credential]
   helper = cache
