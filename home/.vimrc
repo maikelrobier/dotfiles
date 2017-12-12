@@ -12,7 +12,7 @@ set visualbell
 set ruler
 set laststatus=2
 
-set wildignore+=*/tmp/*,*/node_modules/*,*/bower_componets/*,*/.git/*,*/bin/*,*/vendor/*,*/images/*,*/fonts/*,*.swp
+set wildignore+=*/tmp/*,*/node_modules/*,*/bower_componets/*,*/.git/*,*/bin/*,*/vendor/*,*/images/*,*/fonts/*,*.swp,*/__generated__/*
 
 " set tabs to 2 spaces
 set expandtab
