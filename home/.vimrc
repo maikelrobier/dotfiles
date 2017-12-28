@@ -11,6 +11,9 @@ set colorcolumn=120 " show column gutter
 set visualbell
 set ruler
 set laststatus=2
+" Enable mouse but hide when typing
+set mouse=a
+set mousehide
 
 set wildignore+=*/tmp/*,*/node_modules/*,*/bower_componets/*,*/.git/*,*/bin/*,*/vendor/*,*/images/*,*/fonts/*,*.swp,*/__generated__/*
 
