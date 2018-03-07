@@ -7,10 +7,14 @@
 [credential]
   helper = cache
 
+[log]
+  date = relative
+[format]
+  pretty = format:%C(yellow)%h %Cblue%ad%Cgreen %aN %Creset%s%Creset
+
 [alias]
   # View abbreviated SHA, description, and history graph of the latest 20 commits
   l = log --pretty=oneline -n 20 --graph --abbrev-commit
-  lp = log --pretty=format:"%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s" --date=relative
 
   # View the current working tree status using the short format
   s = status -s
