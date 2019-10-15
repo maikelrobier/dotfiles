@@ -9,9 +9,9 @@
 ## Installation
 
 ```bash
-git clone git@github.com:maikelrobier/dotfiles.git ~/dotfiles
+git clone https://github.com/maikelrobier/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-sh install.sh
+bash install.sh
 ```
 
 ## License
