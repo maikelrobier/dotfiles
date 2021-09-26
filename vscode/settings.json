@@ -3,7 +3,6 @@
   "explorer.openEditors.visible": 0,
   "editor.formatOnSave": true,
   "editor.rulers": [120],
-
   "files.exclude": {
     "**/__generated__": true
   },
@@ -12,7 +11,6 @@
     "**/node_modules": true,
     "**/__generated__": true
   },
-
   "vim.useSystemClipboard": true,
   "vim.handleKeys": {
     "<C-a>": false,
@@ -26,10 +24,60 @@
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "#906700",
   "vim.leader": ",",
-
   "vim.easymotion": true,
-  "vim.easymotionMarkerHeight": 12,
-  "vim.easymotionMarkerFontFamily": "Menlo",
-  "vim.easymotionMarkerFontSize": "12px",
-  "vim.easymotionMarkerYOffset": 6
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "files.insertFinalNewline": true,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false
+  },
+  "python.formatting.provider": "yapf",
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.venvPath": ".virtual",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // "terminal.integrated.fontFamily": "'Inconsolata for Powerline'"
+  "terminal.integrated.fontFamily": "'MesloLGS NF'",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 4,
+  "editor.cursorStyle": "line",
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "[terraform]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "workbench.colorTheme": "One Monokai"
 }
