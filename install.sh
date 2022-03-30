@@ -9,6 +9,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     bash ./scripts/setup-macos-vim.sh
     bash ./scripts/setup-macos-vscode.sh
     bash ./scripts/setup-zsh.sh
+    open "./fonts/MesloLGS NF Regular.ttf"
 # else
     # TODO
 fi
